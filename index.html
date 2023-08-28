@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment</title>
+  <link rel="shortcut icon" href="./assets/images/logo/logo.png"  type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+        aria-controls="offcanvasExample">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="./assets/images/logo/logo.png" class="img-fluid" alt="" /></a>
+      <div class="social-icon d-block d-lg-none">
+        <img src="./assets/images/social-icon/search.png" class="img-fluid mx-3" alt="" />
+        <img src="./assets/images/social-icon/user.png" class="img-fluid" alt="" />
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Diamonds</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" href="#">Accessories</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Fine Jewelry</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Watches</a>
+          </li>
+        </ul>
+        <div class="social-icon d-none d-lg-block">
+          <img src="./assets/images/social-icon/search.png" class="img-fluid" alt="" />
+          <img src="./assets/images/social-icon/heart.png" class="img-fluid mx-3" alt="" />
+          <img src="./assets/images/social-icon/user.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- offcanvas -->
+
+    <div class="offcanvas offcanvas-start w-100" tabindex="-1" id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <li class="nav-item dropdown">
+          <a class="nav-link d-flex align-items-center justify-content-between dropdown-toggle" href="#"
+            id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Diamonds
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Diamond One</a></li>
+            <li><a class="dropdown-item" href="#">Diamond two</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link fw-bold d-flex align-items-center justify-content-between dropdown-toggle" href="#"
+            id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Accessories
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Accessories One</a></li>
+            <li><a class="dropdown-item" href="#">Accessories two</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link d-flex align-items-center justify-content-between dropdown-toggle" href="#"
+            id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Fine Jewelry
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Fine Jewelry One</a></li>
+            <li><a class="dropdown-item" href="#">Fine Jewelry two</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link d-flex align-items-center justify-content-between dropdown-toggle" href="#"
+            id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Diamonds
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Fine Jewelry One</a></li>
+            <li><a class="dropdown-item" href="#">Fine Jewelry two</a></li>
+          </ul>
+        </li>
+        <hr />
+        <div class="container">
+          <div class="row">
+            <div class="col-12 d-flex flex-column">
+              <span class="d-flex flex-row align-items-center mb-3">
+                <img src="./assets/images/social-icon/chatting.png" class="img-fluid" alt="" />
+                <p class="mx-2 mb-0">Inquiry</p>
+              </span>
+              <span class="d-flex flex-row align-items-center">
+                <img src="./assets/images/social-icon/user.png" class="img-fluid" alt="" />
+                <p class="mx-2 mb-0">Feedback</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- offcanvas -->
+  </nav>
+  <!-- header -->
+  <section class="nav-bottom d-none d-lg-block">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-between">
+          <span class="d-flex flex-row align-items-center">
+            <img src="./assets/images/social-icon/chatting.png" class="img-fluid" alt="" />
+            <p class="mx-2 mb-0">Inquiry</p>
+          </span>
+          <span class="d-flex flex-row align-items-center">
+            <img src="./assets/images/social-icon/user.png" class="img-fluid" alt="" />
+            <p class="mx-2 mb-0">Feedback</p>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- banner -->
+  <section class="banners flex-center">
+    <div class="circular-slider flex-center">
+      <h1 class="character-name">Vintage & Antique</h1>
+      <ul class="wrapper flex-center">
+        <li class="slides" style="--img-no: 1;">
+          <img src="./assets/images/products/ring_one.png" alt="ring_one" />
+        </li>
+        <li class="slides" style="--img-no: 2;">
+          <img class="active" src="./assets/images/products/ring_two.png" alt="ring_two" />
+        </li>
+        <li class="slides" style="--img-no: 3;">
+          <img src="./assets/images/products/ring_three.png" alt="ring_three" />
+        </li>
+        <li class="slides" style="--img-no: 4;">
+          <img src="./assets/images/products/assher.png" alt="engagement" />
+        </li>
+        <li class="slides" style="--img-no: 5;">
+          <img src="./assets/images/products/round.png" alt="engagement" />
+        </li>
+      </ul>
+      <div class="descriptions">
+        <div class="descriptions_item active">
+          <h1>Vintage & Antique</h1>
+          <p>$4500</p>
+          <p>Take 20% off for a limited time use code: LOVE20</p>
+          <button class="btn">View Details</button>
+        </div>
+        <div class="descriptions_item">
+          <h1>Pave</h1>
+          <p>$2500</p>
+          <p>Take 20% off for a limited time use code: LOVE20</p>
+          <button class="btn">View more</button>
+        </div>
+        <div class="descriptions_item">
+          <h1>Hidden halo</h1>
+          <p>$2500</p>
+          <p>Take 20% off for a limited time use code: LOVE20</p>
+          <button class="btn">View more</button>
+        </div>
+        <div class="descriptions_item">
+          <h1>Vintage & Antique</h1>
+          <p>$4500</p>
+          <p>Take 20% off for a limited time use code: LOVE20</p>
+          <button class="btn">View Details</button>
+        </div>
+        <div class="descriptions_item">
+          <h1>Vintage & Antique</h1>
+          <p>$4500</p>
+          <p>Take 20% off for a limited time use code: LOVE20</p>
+          <button class="btn">View Details</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banner -->
+
+  <section class="our-collection my-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-8 my-5 py-5 heads">
+          <h3 class="text-center">Our Collection</h3>
+          <p class="text-center">
+            Discover our elegant and unique fine jewelry collections, ranging
+            from classic diamond studs to stylish pendants and dazzling
+            bracelets.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid my-5">
+      <div class="row">
+        <div class="col-3">
+          <div class="card">
+            <img src="./assets/images/products/wedding_ring.png" class="card-img-top" alt="wedding_ring" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Wedding Ring</h5>
+              <p class="card-text text-center">
+                Every diamond in our collection
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img src="./assets/images/products/engagement_ring.png" class="card-img-top" alt="engagement_ring" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Engagement Rings</h5>
+              <p class="card-text text-center">
+                Every diamond in our collection
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img src="./assets/images/products/fine_jewelry.png" class="card-img-top" alt="fine_jewelry" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Fine Jewelry</h5>
+              <p class="card-text text-center">
+                Every diamond in our collection
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img src="./assets/images/products/latest_ring.png" class="card-img-top" alt="latest_ring" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Latest Rings</h5>
+              <p class="card-text text-center">
+                Every diamond in our collection
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- products slider -->
+  <section class="products-slider">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-6">
+          <h3 class="text-center">Explore Loose Diamonds</h3>
+          <p class="text-center">
+            Every diamond in our collection is selected for its superior cut,
+            symmetry, and shape.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="./assets/images/products/round.png" class="card-img-top" alt="round" />
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Round</h5>
+                    <p class="card-text text-center">
+                      Every diamond in our collection
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="./assets/images/products/oval_two.png" class="card-img-top" alt="oval_two" />
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Emerald</h5>
+                    <p class="card-text text-center">
+                      Every diamond in our collection
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="./assets/images/products/round.png" class="card-img-top" alt="round" />
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Round</h5>
+                    <p class="card-text text-center">
+                      Every diamond in our collection
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="./assets/images/products/oval.png" class="card-img-top" alt="oval" />
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Oval</h5>
+                    <p class="card-text text-center">
+                      Every diamond in our collection
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="./assets/images/products/heart.png" class="card-img-top" alt="heart" />
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Heart</h5>
+                    <p class="card-text text-center">
+                      Every diamond in our collection
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="./assets/images/products/oval_two.png" class="card-img-top" alt="oval_two" />
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Asscher</h5>
+                    <p class="card-text text-center">
+                      Every diamond in our collection
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="./assets/images/products/heart.png" class="card-img-top" alt="heart" />
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Heart</h5>
+                    <p class="card-text text-center">
+                      Every diamond in our collection
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- products slider -->
+
+  <!-- keep in touch -->
+  <section class="keep-in-touch my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-lg-6">
+          <h3 class="mb-4">Keep In Touch</h3>
+          <p class="mb-5">
+            Our lab created diamonds are the eco-conscious choice, and exhibit
+            the same sparkle as natural diamonds.
+          </p>
+          <div class="d-none d-lg-block">
+            <input type="text" class="form-control mb-4 border-0" placeholder="Enter your email Id to subscribe"
+              style="border-bottom: 1px solid grey !important" />
+            <a href="#" class="btn mt-4">Sign Up</a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-6">
+          <div class="row justify-content-center">
+            <div class="col-6 col-lg-6 mb-4">
+              <img src="./assets/images/products/products_one.png" class="img-fluid rounded" alt="products_one" />
+            </div>
+            <div class="col-6 col-lg-6 mb-4">
+              <img src="./assets/images/products/products_two.png" class="img-fluid rounded" alt="products_two" />
+            </div>
+            <div class="col-6 col-lg-6 mb-4">
+              <img src="./assets/images/products/products_three.png" class="img-fluid rounded" alt="products_three" />
+            </div>
+            <div class="col-6 col-lg-6 mb-4">
+              <img src="./assets/images/products/products_four.png" class="img-fluid rounded" alt="products_four" />
+            </div>
+            <div class="d-block d-lg-none w-75">
+              <input type="text" class="form-control mb-4 border-0" placeholder="Enter your email Id to subscribe"
+                style="border-bottom: 1px solid grey !important" />
+              <div class="text-center">
+                <a href="#" class="btn mt-4">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="mt-5" />
+    </div>
+  </section>
+  <!-- keep in touch -->
+
+  <!-- footer -->
+  <footer class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="footer-top d-flex justify-content-center">
+            <span class="d-flex flex-column text-center">
+              <a class="navbar-brand" href="#"><img src="./assets/images/logo/logo.png" class="img-fluid" alt="" /></a>
+              <p class="py-3 years">20+ Years of Trust</p>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <p class="text-center foot-desc">
+            dimend SCAASI Jeweler is a unique Jewelry store located in Chicago
+            with an emphasis on great style and exceptional quality.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="footer-menu py-5">
+            <ul class="d-flex justify-content-between px-0" style="list-style-type: none">
+              <li><a href="#">Education</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Customer Care</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="d-flex align-items-center justify-content-between flex-wrap">
+          <img src="./assets/images/client/gia.png" class="img-fluid" alt="gia" />
+          <img src="./assets/images/client/joa.png" class="img-fluid" alt="joa" />
+          <img src="./assets/images/client/jvc.png" class="img-fluid" alt="jvc" />
+          <img src="./assets/images/client/bbb.png" class="img-fluid" alt="bbb" />
+          <img src="./assets/images/client/visa.png" class="img-fluid" alt="visa" />
+          <img src="./assets/images/client/master.png" class="img-fluid" alt="master" />
+          <img src="./assets/images/client/discover.png" class="img-fluid" alt="discover" />
+          <img src="./assets/images/client/paypal.png" class="img-fluid" alt="paypal" />
+          <img src="./assets/images/client/american.png" class="img-fluid" alt="american" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="footer-copyright pt-5">
+            <p class="text-center mb-0">
+              dimendSCAASI™ and InnerView® are Registered Trademarks of dimend
+              SCAASI Ltd. © 2010-2020 dimend SCAASI Ltd.
+              <span class="d-none d-lg-block"><a href="#">Terms Of Use</a> | <a href="#">Sitemap</a> |
+                <a href="#">Privacy Policy</a></span>
+            </p>
+            <span class="d-block d-lg-none mt-3 text-center">
+              <a href="#">Terms Of Use</a> |
+              <a href="#">Privacy Policy</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
